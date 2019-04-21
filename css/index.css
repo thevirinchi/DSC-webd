@@ -146,7 +146,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .zk-nav-item{text-decoration:none;margin-left:60px;font-size:28px;}
 .zk-btn-ninv{border: 2px solid #52be92; border-radius: 5px;}
 .zk-btn-inv{border: 2px solid #52be92; border-radius: 5px; background-color:#52be92}
-.zk-special-footer{  background-image: url(img/footer.jpg); background-color: #52be92;}
+.zk-special-footer{  background-image: url(img/footer.jpg);  background-color: #52be92;}
 /* Colors */
 .zk-amber,.zk-hover-amber:hover{color:#000!important;background-color:#ffc107!important}
 .zk-aqua,.zk-hover-aqua:hover{color:#000!important;background-color:#00ffff!important}
