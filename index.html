@@ -8,16 +8,6 @@
 		<LINK rel="stylesheet" href="css/index.css">
 		<!-- Cool Anims -->
 		<LINK rel="stylesheet" href="css/animate.min.css">
-		<!-- Link Anims -->
-		<LINK rel="stylesheet" href="css/component.css">
-		<!-- Wows Anims -->
-		<SCRIPT src="js/wow.min.js"></SCRIPT>
-		<SCRIPT>new WOW().init();</SCRIPT>
-		<!-- Redirect on load -->
-		<SCRIPT>
-			if(screen.width <= 925)
-				location.assign("home.html");
-		</SCRIPT>
 		<!-- Icons -->
 		<SCRIPT defer src="js/all.js"></SCRIPT>
 		<LINK href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -35,13 +25,18 @@
 			<!-- Navbar Container -->
 			<DIV class="zk-top zk-white pattern" id="navBar" style="min-height:100px;">
 				<DIV class="zk-bar zk-navbar zk-padding-small" id="myNavbar" style="color:white;">
-					<NAV><A href="index.html" class="zk-bar-item zk-wide zk-text-black"><IMG src="img\2000px-Green_dot_logo.svg_.png" style="height:80px;"/><SPAN style="font-size:35px;padding-top:10px;">GoGreen</SPAN></A></NAV>
-					<NAV class="zk-right" style="margin-top:30px;margin-right:16px;height:100%">
+					<NAV>
+						<A href="index.html" class="zk-bar-item zk-wide zk-text-black" style="display: flex; align-items:center;text-decoration:none;">
+							<IMG src="img\2000px-Green_dot_logo.svg_.png" style="height:80px;vertical-align:middle"/>
+							<SPAN style="font-size:45px;margin-left:16px;">GoGreen</SPAN>
+						</A>
+					</NAV>
+					<NAV class="zk-right" style="margin-top:25px;margin-right:16px;height:100;">
 						<A href="#" class="zk-text-black zk-nav-item">Act</A>
 						<A href="#" class="zk-text-black zk-nav-item">Learn</A>
 						<A href="#" class="zk-text-black zk-nav-item">About Us</A>
-						<A href="#" class="zk-text-black zk-nav-item">Sign Up</A>
-						<A href="#" class="zk-text-black zk-nav-item">Login</A>
+						<A href="#" class="zk-text-black zk-nav-item"><BUTTON class="zk-button zk-btn-inv">Sign Up</BUTTON></A>
+						<A href="#" class="zk-text-black zk-nav-item"><BUTTON class="zk-button zk-btn-ninv">Login</BUTTON></A>
 					</NAV>
 				</DIV>
 			</DIV>
